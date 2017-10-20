@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = UIColor.red // 背景を赤に
         
-        print("hello worlld")
+        print("hello workkkkkklld")
         
         let s: String? = nil
         if s != nil {
