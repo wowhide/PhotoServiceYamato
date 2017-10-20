@@ -12,8 +12,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+        self.view.backgroundColor = UIColor.red // 背景を赤に
+        
+        print("hello worlld")
+        
+        let s: String? = nil
+        if s != nil {
+            print(s!)
+        }    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
