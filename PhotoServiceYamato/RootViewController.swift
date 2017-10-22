@@ -13,7 +13,10 @@ class RootViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.view.backgroundColor = UIColor.blue // 背景を赤に
+        self.view.backgroundColor = UIColor.blue // 背景を青に
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

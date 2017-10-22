@@ -8,6 +8,29 @@
 
 import UIKit
 
+
+extension UIImage{
+    
+    // Resizeするクラスメソッド.
+    func ResizeÜIImage(width : CGFloat, height : CGFloat)-> UIImage!{
+        
+        // 指定された画像の大きさのコンテキストを用意.
+        UIGraphicsBeginImageContext(CGSize(width: width, height: height))
+        
+        // コンテキストに自身に設定された画像を描画する.
+        self.draw(in: CGRect(x: 0, y: 0, width: width, height: height))
+        
+        // コンテキストからUIImageを作る.
+        let newImage = UIGraphicsGetImageFromCurrentImageContext()
+        
+        // コンテキストを閉じる.
+        UIGraphicsEndImageContext()
+        
+        return newImage
+    }
+    
+}
+
 class StartViewController: UIViewController {
 
     override func viewDidLoad() {
@@ -22,10 +45,39 @@ class StartViewController: UIViewController {
     }
 
     private func initImageView(){
-        //
+        // UIImage インスタンスの生成
+        // 画像はAssetsに入れてないのとjpgなので拡張子を入れます
+//        let image1:UIImage = UIImage(named:"IMG_0836.JPG")!
+//
+//        // UIImageView 初期化
+//        let imageView = UIImageView(image:image1)
+//
+//        // 画面の横幅を取得
+//        let screenWidth:CGFloat = view.frame.size.width
+//        let screenHeight:CGFloat = view.frame.size.height
+//
+//        // 画像の中心を画面の中心に設定
+//        imageView.center = CGPoint(x:screenWidth/2, y:screenHeight/2)
+//
+//        // UIImageViewのインスタンスをビューに追加
+//        self.view.addSubview(imageView)
         
+        // 背景を黒色に設定.
+        self.view.backgroundColor = UIColor.black
         
+        // リサイズ対象のUIImageを用意.
+        let myImage = UIImage(named: "IMG_0836.JPG")!
         
+        // リサイズ後のUIImageを用意.
+        let resize = myImage.ResizeÜIImage(width: self.view.frame.midX, height: self.view.frame.midY)
+        
+        // UIImageViewにリサイズ後のUIImageを設定.
+        let myImageView = UIImageView(image: resize)
+        
+        myImageView.layer.position = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY)
+        
+        self.view.addSubview(myImageView)
+    
     }
     
     
