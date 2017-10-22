@@ -107,10 +107,10 @@
 				74F663681F99C6190078C7BB /* ViewController.swift */,
 				74F663941F99E8110078C7BB /* RootViewController.swift */,
 				74F663951F99E8110078C7BB /* RootViewController.xib */,
-				74F6636D1F99C6190078C7BB /* Assets.xcassets */,
-				74F663721F99C6190078C7BB /* Info.plist */,
 				74F6639A1F99EF640078C7BB /* StartViewController.swift */,
 				74F6639B1F99EF640078C7BB /* StartViewController.xib */,
+				74F6636D1F99C6190078C7BB /* Assets.xcassets */,
+				74F663721F99C6190078C7BB /* Info.plist */,
 			);
 			path = PhotoServiceYamato;
 			sourceTree = "<group>";
