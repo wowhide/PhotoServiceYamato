@@ -33,21 +33,24 @@ extension UIImage{
 
 class StartViewController: UIViewController {
 
+    @IBOutlet weak var SplaxhImage: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         //iphoneとipadで判別する
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            //背景画像をセット
-            initImageView()
-        }
+//        if UIDevice.current.userInterfaceIdiom == .phone {
+//            //背景画像をセット
+//            initImageView()
+//        }
 
     }
 
     private func initImageView(){
         // UIImage インスタンスの生成
         // 画像はAssetsに入れてないのとjpgなので拡張子を入れます
-//        let image1:UIImage = UIImage(named:"IMG_0836.JPG")!
+//        let image1:UIImage = UIImage(named:"SplashImage")!
 //
 //        // UIImageView 初期化
 //        let imageView = UIImageView(image:image1)
@@ -63,21 +66,30 @@ class StartViewController: UIViewController {
 //        self.view.addSubview(imageView)
         
         // 背景を黒色に設定.
-        self.view.backgroundColor = UIColor.black
-        
-        // リサイズ対象のUIImageを用意.
-        let myImage = UIImage(named: "IMG_0836.JPG")!
-        
-        // リサイズ後のUIImageを用意.
-        let resize = myImage.ResizeÜIImage(width: self.view.frame.midX, height: self.view.frame.midY)
-        
-        // UIImageViewにリサイズ後のUIImageを設定.
-        let myImageView = UIImageView(image: resize)
-        
-        myImageView.layer.position = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY)
-        
-        self.view.addSubview(myImageView)
+//        self.view.backgroundColor = UIColor.black
+//
+//        // リサイズ対象のUIImageを用意.
+//        let myImage = UIImage(named: "SplashImage")!
+//
+//        // リサイズ後のUIImageを用意.
+//        let resize = myImage.ResizeÜIImage(width: self.view.frame.midX, height: self.view.frame.midY)
+//
+//        // UIImageViewにリサイズ後のUIImageを設定.
+//        let myImageView = UIImageView(image: resize)
+//
+//        myImageView.layer.position = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY)
+//
+//        self.view.addSubview(myImageView)
     
+//        UIGraphicsBeginImageContext(self.SplaxhImage.frame.size)
+//        UIImage(named: "SplashImage")?.draw(in: self.SplashImage.bounds)
+//
+//        let image: UIImage! = UIGraphicsGetImageFromCurrentImageContext()
+//
+//        UIGraphicsEndImageContext()
+//
+//
+//        self.SplashImage.backgroundColor = UIColor(patternImage: image)
     }
     
     
