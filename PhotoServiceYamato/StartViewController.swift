@@ -68,7 +68,7 @@ class StartViewController: UIViewController {
         // 背景を黒色に設定.
 //        self.view.backgroundColor = UIColor.black
 //
-//        // リサイズ対象のUIImageを用意.
+        // リサイズ対象のUIImageを用意.
 //        let myImage = UIImage(named: "SplashImage")!
 //
 //        // リサイズ後のUIImageを用意.
@@ -80,16 +80,16 @@ class StartViewController: UIViewController {
 //        myImageView.layer.position = CGPoint(x: self.view.frame.midX, y: self.view.frame.midY)
 //
 //        self.view.addSubview(myImageView)
-    
-//        UIGraphicsBeginImageContext(self.SplaxhImage.frame.size)
-//        UIImage(named: "SplashImage")?.draw(in: self.SplashImage.bounds)
+//
+//        UIGraphicsBeginImageContext(self.view.frame.size)
+//        UIImage(named: "SplashImage")?.draw(in: self.view.bounds)
 //
 //        let image: UIImage! = UIGraphicsGetImageFromCurrentImageContext()
 //
 //        UIGraphicsEndImageContext()
 //
 //
-//        self.SplashImage.backgroundColor = UIColor(patternImage: image)
+//        self.view.backgroundColor = UIColor(patternImage: image)
     }
     
     
