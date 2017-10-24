@@ -37,14 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		74F663631F99C6190078C7BB /* PhotoServiceYamato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoServiceYamato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F663631F99C6190078C7BB /* PhotoServiceHYamato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoServiceHYamato.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F663661F99C6190078C7BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		74F6636D1F99C6190078C7BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74F663721F99C6190078C7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74F663771F99C6190078C7BB /* PhotoServiceYamatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoServiceYamatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F663771F99C6190078C7BB /* PhotoServiceHYamatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoServiceHYamatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F6637B1F99C6190078C7BB /* PhotoServiceYamatoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoServiceYamatoTests.swift; sourceTree = "<group>"; };
 		74F6637D1F99C61A0078C7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		74F663821F99C61A0078C7BB /* PhotoServiceYamatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoServiceYamatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74F663821F99C61A0078C7BB /* PhotoServiceHYamatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoServiceHYamatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		74F663861F99C61A0078C7BB /* PhotoServiceYamatoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoServiceYamatoUITests.swift; sourceTree = "<group>"; };
 		74F663881F99C61A0078C7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74F663941F99E8110078C7BB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
@@ -91,9 +91,9 @@
 		74F663641F99C6190078C7BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				74F663631F99C6190078C7BB /* PhotoServiceYamato.app */,
-				74F663771F99C6190078C7BB /* PhotoServiceYamatoTests.xctest */,
-				74F663821F99C61A0078C7BB /* PhotoServiceYamatoUITests.xctest */,
+				74F663631F99C6190078C7BB /* PhotoServiceHYamato.app */,
+				74F663771F99C6190078C7BB /* PhotoServiceHYamatoTests.xctest */,
+				74F663821F99C61A0078C7BB /* PhotoServiceHYamatoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,9 +133,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		74F663621F99C6190078C7BB /* PhotoServiceYamato */ = {
+		74F663621F99C6190078C7BB /* PhotoServiceHYamato */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74F6638B1F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceYamato" */;
+			buildConfigurationList = 74F6638B1F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceHYamato" */;
 			buildPhases = (
 				74F6635F1F99C6190078C7BB /* Sources */,
 				74F663601F99C6190078C7BB /* Frameworks */,
@@ -145,14 +145,14 @@
 			);
 			dependencies = (
 			);
-			name = PhotoServiceYamato;
+			name = PhotoServiceHYamato;
 			productName = PhotoServiceYamato;
-			productReference = 74F663631F99C6190078C7BB /* PhotoServiceYamato.app */;
+			productReference = 74F663631F99C6190078C7BB /* PhotoServiceHYamato.app */;
 			productType = "com.apple.product-type.application";
 		};
-		74F663761F99C6190078C7BB /* PhotoServiceYamatoTests */ = {
+		74F663761F99C6190078C7BB /* PhotoServiceHYamatoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74F6638E1F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceYamatoTests" */;
+			buildConfigurationList = 74F6638E1F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceHYamatoTests" */;
 			buildPhases = (
 				74F663731F99C6190078C7BB /* Sources */,
 				74F663741F99C6190078C7BB /* Frameworks */,
@@ -163,14 +163,14 @@
 			dependencies = (
 				74F663791F99C6190078C7BB /* PBXTargetDependency */,
 			);
-			name = PhotoServiceYamatoTests;
+			name = PhotoServiceHYamatoTests;
 			productName = PhotoServiceYamatoTests;
-			productReference = 74F663771F99C6190078C7BB /* PhotoServiceYamatoTests.xctest */;
+			productReference = 74F663771F99C6190078C7BB /* PhotoServiceHYamatoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		74F663811F99C61A0078C7BB /* PhotoServiceYamatoUITests */ = {
+		74F663811F99C61A0078C7BB /* PhotoServiceHYamatoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 74F663911F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceYamatoUITests" */;
+			buildConfigurationList = 74F663911F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceHYamatoUITests" */;
 			buildPhases = (
 				74F6637E1F99C61A0078C7BB /* Sources */,
 				74F6637F1F99C61A0078C7BB /* Frameworks */,
@@ -181,9 +181,9 @@
 			dependencies = (
 				74F663841F99C61A0078C7BB /* PBXTargetDependency */,
 			);
-			name = PhotoServiceYamatoUITests;
+			name = PhotoServiceHYamatoUITests;
 			productName = PhotoServiceYamatoUITests;
-			productReference = 74F663821F99C61A0078C7BB /* PhotoServiceYamatoUITests.xctest */;
+			productReference = 74F663821F99C61A0078C7BB /* PhotoServiceHYamatoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -212,7 +212,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 74F6635E1F99C6190078C7BB /* Build configuration list for PBXProject "PhotoServiceYamato" */;
+			buildConfigurationList = 74F6635E1F99C6190078C7BB /* Build configuration list for PBXProject "PhotoServiceHYamato" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -225,9 +225,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				74F663621F99C6190078C7BB /* PhotoServiceYamato */,
-				74F663761F99C6190078C7BB /* PhotoServiceYamatoTests */,
-				74F663811F99C61A0078C7BB /* PhotoServiceYamatoUITests */,
+				74F663621F99C6190078C7BB /* PhotoServiceHYamato */,
+				74F663761F99C6190078C7BB /* PhotoServiceHYamatoTests */,
+				74F663811F99C61A0078C7BB /* PhotoServiceHYamatoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -293,12 +293,12 @@
 /* Begin PBXTargetDependency section */
 		74F663791F99C6190078C7BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74F663621F99C6190078C7BB /* PhotoServiceYamato */;
+			target = 74F663621F99C6190078C7BB /* PhotoServiceHYamato */;
 			targetProxy = 74F663781F99C6190078C7BB /* PBXContainerItemProxy */;
 		};
 		74F663841F99C61A0078C7BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 74F663621F99C6190078C7BB /* PhotoServiceYamato */;
+			target = 74F663621F99C6190078C7BB /* PhotoServiceHYamato */;
 			targetProxy = 74F663831F99C61A0078C7BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -421,7 +421,7 @@
 				INFOPLIST_FILE = PhotoServiceYamato/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.znlc.PhotoServiceYamato;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.znlc.PhotoServiceHYamato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -438,7 +438,7 @@
 				INFOPLIST_FILE = PhotoServiceYamato/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jp.znlc.PhotoServiceYamato;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.znlc.PhotoServiceHYamato;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -458,7 +458,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoServiceYamato.app/PhotoServiceYamato";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoServiceHYamato.app/PhotoServiceHYamato";
 			};
 			name = Debug;
 		};
@@ -475,7 +475,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoServiceYamato.app/PhotoServiceYamato";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PhotoServiceHYamato.app/PhotoServiceHYamato";
 			};
 			name = Release;
 		};
@@ -514,7 +514,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		74F6635E1F99C6190078C7BB /* Build configuration list for PBXProject "PhotoServiceYamato" */ = {
+		74F6635E1F99C6190078C7BB /* Build configuration list for PBXProject "PhotoServiceHYamato" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74F663891F99C61A0078C7BB /* Debug */,
@@ -523,7 +523,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74F6638B1F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceYamato" */ = {
+		74F6638B1F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceHYamato" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74F6638C1F99C61A0078C7BB /* Debug */,
@@ -532,7 +532,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74F6638E1F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceYamatoTests" */ = {
+		74F6638E1F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceHYamatoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74F6638F1F99C61A0078C7BB /* Debug */,
@@ -541,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		74F663911F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceYamatoUITests" */ = {
+		74F663911F99C61A0078C7BB /* Build configuration list for PBXNativeTarget "PhotoServiceHYamatoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				74F663921F99C61A0078C7BB /* Debug */,

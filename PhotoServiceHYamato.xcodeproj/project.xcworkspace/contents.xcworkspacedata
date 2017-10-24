@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PhotoServiceYamato.xcodeproj">
+      location = "self:/Users/pc150401/Desktop/PhotoServiceYamato/PhotoServiceHYamato.xcodeproj">
    </FileRef>
 </Workspace>
