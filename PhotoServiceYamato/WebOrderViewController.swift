@@ -31,7 +31,7 @@ extension UIImage{
     
 }
 
-class StartViewController: UIViewController {
+class WebOrderViewController: UIViewController {
 
     @IBOutlet weak var SplaxhImage: UIImageView!
     

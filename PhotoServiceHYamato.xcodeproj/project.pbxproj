@@ -15,8 +15,8 @@
 		74F663971F99E8110078C7BB /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F663941F99E8110078C7BB /* RootViewController.swift */; };
 		74F663981F99E8110078C7BB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F663951F99E8110078C7BB /* RootViewController.xib */; };
 		74F663991F99E8110078C7BB /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F663951F99E8110078C7BB /* RootViewController.xib */; };
-		74F6639C1F99EF640078C7BB /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6639A1F99EF640078C7BB /* StartViewController.swift */; };
-		74F6639D1F99EF640078C7BB /* StartViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F6639B1F99EF640078C7BB /* StartViewController.xib */; };
+		74F6639C1F99EF640078C7BB /* WebOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74F6639A1F99EF640078C7BB /* WebOrderViewController.swift */; };
+		74F6639D1F99EF640078C7BB /* WebOrderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74F6639B1F99EF640078C7BB /* WebOrderViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,8 +49,8 @@
 		74F663881F99C61A0078C7BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74F663941F99E8110078C7BB /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		74F663951F99E8110078C7BB /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
-		74F6639A1F99EF640078C7BB /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
-		74F6639B1F99EF640078C7BB /* StartViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartViewController.xib; sourceTree = "<group>"; };
+		74F6639A1F99EF640078C7BB /* WebOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebOrderViewController.swift; sourceTree = "<group>"; };
+		74F6639B1F99EF640078C7BB /* WebOrderViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebOrderViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 				74F663661F99C6190078C7BB /* AppDelegate.swift */,
 				74F663941F99E8110078C7BB /* RootViewController.swift */,
 				74F663951F99E8110078C7BB /* RootViewController.xib */,
-				74F6639A1F99EF640078C7BB /* StartViewController.swift */,
-				74F6639B1F99EF640078C7BB /* StartViewController.xib */,
+				74F6639A1F99EF640078C7BB /* WebOrderViewController.swift */,
+				74F6639B1F99EF640078C7BB /* WebOrderViewController.xib */,
 				74F6636D1F99C6190078C7BB /* Assets.xcassets */,
 				74F663721F99C6190078C7BB /* Info.plist */,
 			);
@@ -239,7 +239,7 @@
 			files = (
 				74F663981F99E8110078C7BB /* RootViewController.xib in Resources */,
 				74F6636E1F99C6190078C7BB /* Assets.xcassets in Resources */,
-				74F6639D1F99EF640078C7BB /* StartViewController.xib in Resources */,
+				74F6639D1F99EF640078C7BB /* WebOrderViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74F6639C1F99EF640078C7BB /* StartViewController.swift in Sources */,
+				74F6639C1F99EF640078C7BB /* WebOrderViewController.swift in Sources */,
 				74F663671F99C6190078C7BB /* AppDelegate.swift in Sources */,
 				74F663961F99E8110078C7BB /* RootViewController.swift in Sources */,
 			);
