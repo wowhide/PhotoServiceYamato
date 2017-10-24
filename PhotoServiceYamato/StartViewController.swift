@@ -39,7 +39,7 @@ class StartViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        //iphoneとipadで判別する
+//        //iphoneとipadで判別する
 //        if UIDevice.current.userInterfaceIdiom == .phone {
 //            //背景画像をセット
 //            initImageView()
